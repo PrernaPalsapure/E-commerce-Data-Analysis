@@ -2,6 +2,8 @@
 
 > Transforming raw e-commerce transaction data into actionable business insights using interactive dashboards and statistical analysis.
 
+---
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -14,11 +16,12 @@
 - [Project Structure](#project-structure)
 - [How to Use](#how-to-use)
 - [Key Insights & Recommendations](#key-insights--recommendations)
+- [Methodology](#methodology)
 - [Author](#author)
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project analyzes a comprehensive e-commerce dataset spanning 2010-2011, uncovering critical patterns in **customer behavior**, **product performance**, and **sales trends**. The interactive Tableau dashboard enables data-driven decision-making for business optimization.
 
@@ -28,7 +31,7 @@ This project analyzes a comprehensive e-commerce dataset spanning 2010-2011, unc
 
 ---
 
-## 📊 Key Metrics
+## Key Metrics
 
 | Metric | Value |
 |--------|-------|
@@ -42,7 +45,7 @@ This project analyzes a comprehensive e-commerce dataset spanning 2010-2011, unc
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 ### Data Source
 - **Type:** E-commerce transaction records
@@ -64,33 +67,33 @@ This project analyzes a comprehensive e-commerce dataset spanning 2010-2011, unc
 
 ---
 
-## 🔍 Analysis Performed
+## Analysis Performed
 
-### 1. **Descriptive Analysis**
+### 1. Descriptive Analysis
 - Revenue aggregation by month and product
 - Customer count and transaction volume
 - Average order value calculations
 - Product popularity ranking
 
-### 2. **Trend Analysis**
+### 2. Trend Analysis
 - Monthly revenue patterns
 - Seasonality identification
 - Year-over-year growth calculation
 - Peak season identification
 
-### 3. **Product Performance Analysis**
+### 3. Product Performance Analysis
 - Top 10 products by quantity sold
 - Revenue contribution by product
 - Product category breakdown
 - Sales velocity analysis
 
-### 4. **Customer Segmentation**
+### 4. Customer Segmentation
 - Customer clustering by purchase behavior
 - Order value distribution
 - Customer lifetime value estimation
 - Repeat purchase analysis
 
-### 5. **Statistical Insights**
+### 5. Statistical Insights
 - Growth rate calculations
 - Seasonal decomposition
 - Trend identification
@@ -98,9 +101,9 @@ This project analyzes a comprehensive e-commerce dataset spanning 2010-2011, unc
 
 ---
 
-## 💡 Key Findings
+## Key Findings
 
-### 🔴 Finding 1: Strong Seasonality Effect
+### Finding 1: Strong Seasonality Effect
 **Observation:** Revenue peaks in December ($1.3M) and dips in March-May (~$500K)
 
 **Why It Matters:** 
@@ -114,7 +117,7 @@ This project analyzes a comprehensive e-commerce dataset spanning 2010-2011, unc
 
 ---
 
-### 🔴 Finding 2: Product Concentration Risk
+### Finding 2: Product Concentration Risk
 **Observation:** Top 3 products drive 50% of revenue; Paper Craft alone = 30%
 
 **Why It Matters:**
@@ -130,7 +133,7 @@ This project analyzes a comprehensive e-commerce dataset spanning 2010-2011, unc
 
 ---
 
-### 🔴 Finding 3: Consistent Customer Spending
+### Finding 3: Consistent Customer Spending
 **Observation:** Average order value remains stable at $527.50 throughout year
 
 **Why It Matters:**
@@ -146,7 +149,7 @@ This project analyzes a comprehensive e-commerce dataset spanning 2010-2011, unc
 
 ---
 
-### 🔴 Finding 4: Growth Trajectory
+### Finding 4: Growth Trajectory
 **Observation:** 160% revenue growth from January ($500K) to December ($1.3M)
 
 **Why It Matters:**
@@ -161,7 +164,7 @@ This project analyzes a comprehensive e-commerce dataset spanning 2010-2011, unc
 
 ---
 
-### 🔴 Finding 5: Customer Segmentation Opportunity
+### Finding 5: Customer Segmentation Opportunity
 **Observation:** Customer segments cluster into distinct groups by purchase value
 
 **Why It Matters:**
@@ -176,47 +179,47 @@ This project analyzes a comprehensive e-commerce dataset spanning 2010-2011, unc
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
-The Tableau dashboard includes 5 interactive views:
+The Tableau dashboard includes 7 interactive views:
 
-### 1. **Sales Trends Over Time** (Line Chart)
+### 1. Sales Trends Over Time (Line Chart)
 - Shows monthly revenue patterns
 - Identifies seasonality clearly
 - Date range filter for custom analysis
 - **Use Case:** Track performance over time, spot trends
 
-### 2. **Total Revenue KPI Card**
+### 2. Total Revenue KPI Card
 - At-a-glance business health metric
 - Highlights total value generated
 - Updates with dashboard filters
 - **Use Case:** Executive briefing, quick reference
 
-### 3. **Average Order Value KPI Card**
+### 3. Average Order Value KPI Card
 - Shows customer spending consistency
 - Indicates pricing strategy success
 - Benchmarking metric
 - **Use Case:** Monitor customer quality, pricing impact
 
-### 4. **Total Customers KPI Card**
+### 4. Total Customers KPI Card
 - Tracks customer base growth
 - Combined with revenue = efficiency metric
 - Revenue per customer indicator
 - **Use Case:** Growth tracking, acquisition analysis
 
-### 5. **Top 10 Products by Quantity** (Horizontal Bar Chart)
+### 5. Top 10 Products by Quantity (Horizontal Bar Chart)
 - Visual product performance ranking
 - Paper Craft clearly dominates
 - Easy comparison of volume leaders
 - **Use Case:** Inventory planning, marketing prioritization
 
-### 6. **Monthly Revenue Breakdown** (Line Chart)
+### 6. Monthly Revenue Breakdown (Line Chart)
 - Detailed month-by-month performance
 - Seasonality visualization
 - Trend identification
 - **Use Case:** Quarterly planning, performance review
 
-### 7. **Customer Segmentation** (Bubble Chart)
+### 7. Customer Segmentation (Bubble Chart)
 - Shows customer distribution by purchase value
 - Identifies market segments
 - Visual clustering patterns
@@ -224,11 +227,11 @@ The Tableau dashboard includes 5 interactive views:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Data Analysis & Visualization
 - **Tableau** - Interactive dashboard creation
-- **Python (Pandas, NumPy)** - Data cleaning and preprocessing
+- **Python** - Data cleaning and preprocessing
 
 ### Data Processing
 - **Python Libraries:**
@@ -245,7 +248,7 @@ The Tableau dashboard includes 5 interactive views:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 E-commerce-Data-Analysis/
@@ -272,7 +275,7 @@ E-commerce-Data-Analysis/
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 ### Option 1: View Interactive Dashboard (Recommended)
 1. Download the `E-COMMERCEproject.twbx` file
@@ -293,7 +296,7 @@ E-commerce-Data-Analysis/
 
 ---
 
-## 💼 Key Insights & Recommendations
+## Key Insights & Recommendations
 
 ### Priority 1: Inventory & Supply Chain Optimization
 **Action:** Plan inventory for Q4 surge
@@ -325,7 +328,7 @@ E-commerce-Data-Analysis/
 
 ---
 
-## 📈 Methodology
+## Methodology
 
 ### Data Cleaning Process
 1. ✅ Loaded 10,000+ records
@@ -350,38 +353,7 @@ E-commerce-Data-Analysis/
 
 ---
 
-## 🎓 Learning Outcomes
-
-This project demonstrates:
-- ✅ **Data Cleaning:** Handling messy real-world data
-- ✅ **Analytics:** Extracting meaningful insights
-- ✅ **Visualization:** Communicating findings clearly
-- ✅ **Business Thinking:** Connecting data to action
-- ✅ **Dashboard Design:** Creating interactive user experiences
-- ✅ **Statistical Analysis:** Identifying patterns and trends
-
----
-
-## 🤝 Contributions
-
-This is a portfolio project. Feedback and suggestions are welcome!
-
-If you find insights or have recommendations:
-1. Open an Issue with your findings
-2. Include data, analysis, and proposed action
-3. Reference specific dashboard elements
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-You're free to use this analysis for learning and reference.
-
----
-
-## 👤 Author
+## Author
 
 **Prerna Palsapure**
 
